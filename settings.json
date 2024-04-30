@@ -1,0 +1,134 @@
+{
+	// Main editor settings
+	"editor.tabSize": 4,
+	// "editor.folding": false,
+	"editor.insertSpaces": false,
+	"editor.smoothScrolling": true,
+	"editor.minimap.enabled": false,
+	"editor.detectIndentation": true,
+	"editor.suggestSelection": "first",
+	"window.zoomLevel": 2,
+	"editor.scrollBeyondLastLine": true,
+	// Rename tags
+	"editor.linkedEditing": true,
+	// Auto closing tags
+	"html.autoClosingTags": true,
+	"javascript.autoClosingTags": true,
+	"typescript.autoClosingTags": true,
+	//Определяет, должен ли редактор отображать управляющие символы.
+	"editor.renderControlCharacters": false,
+	//Управляет выделением символов, которые можно спутать с основными символами ASCII, кроме тех, которые являются общими для текущего пользовательского языкового стандарта.
+	"editor.unicodeHighlight.ambiguousCharacters": false,
+	"editor.quickSuggestionsDelay": 0,
+	"html.completion.attributeDefaultValue": "singlequotes",
+	//Appearance
+	"editor.glyphMargin": false,
+	"workbench.activityBar.location": "top",
+	"editor.accessibilitySupport": "off",
+	"window.commandCenter": false,
+	"workbench.layoutControl.enabled": false,
+	// Cursor
+	"editor.cursorBlinking": "solid",
+	"editor.cursorStyle": "line-thin",
+	// Font
+	"editor.fontSize": 17,
+	"editor.lineHeight": 30,
+	"editor.fontLigatures": true,
+	//Terminal
+	"terminal.integrated.fontSize": 16,
+	"terminal.integrated.tabs.enabled": false,
+	//Explorer
+	"explorer.confirmDelete": false,
+	"explorer.compactFolders": false,
+	"explorer.confirmDragAndDrop": false,
+	//Разрешить уменьшение размера вкладок, когда доступного места недостаточно для отображения всех вкладок одновременно.
+	"workbench.editor.tabSizing": "shrink",
+	"workbench.startupEditor": "newUntitledFile",
+	//Debug
+	"debug.toolBarLocation": "hidden",
+	"debug.focusWindowOnBreak": false,
+	"debug.showInlineBreakpointCandidates": false,
+	"debug.showBreakpointsInOverviewRuler": false,
+	// Emmet
+	"emmet.triggerExpansionOnTab": true,
+	//Breadcrumbs
+	"breadcrumbs.icons": false,
+	"breadcrumbs.showKeys": false,
+	"breadcrumbs.showFiles": false,
+	"breadcrumbs.symbolPath": "off",
+	"breadcrumbs.showArrays": false,
+	"breadcrumbs.showEvents": false,
+	"breadcrumbs.showFields": false,
+	"breadcrumbs.showClasses": false,
+	"breadcrumbs.showMethods": false,
+	"breadcrumbs.showBooleans": false,
+	"breadcrumbs.showFunctions": false,
+	"breadcrumbs.showConstants": false,
+	"breadcrumbs.showEnumMembers": false,
+	"breadcrumbs.showConstructors": false,
+	//JS & TS
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"typescript.preferences.quoteStyle": "single",
+	"javascript.preferences.quoteStyle": "single",
+	// Использование экспериментальных декораторов в JS/TS
+	"js/ts.implicitProjectConfig.experimentalDecorators": true,
+	// OTHER
+	// Язык по умолчанию для новых файлов
+	"files.defaultLanguage": "plaintext",
+	// Игнорировать пробелы при сравнении в редакторе diff
+	"diffEditor.ignoreTrimWhitespace": false,
+	// Автоматически изменять предложение автозаполнения на основе предыдущего выбора
+	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+	// Не открывать репозиторий в родительских папках
+	"git.openRepositoryInParentFolders": "never",
+	// Поведение при обнаружении нескольких определений
+	"editor.gotoLocation.multipleDefinitions": "goto",
+	// Скрыть подсказку в пустом редакторе
+	"workbench.editor.empty.hint": "hidden",
+	"editor.guides.bracketPairs": true,
+	"workbench.colorTheme": "Dainty – One Dark Pro (chroma 4, lightness 2)",
+	"workbench.iconTheme": "material-icon-theme",
+	"files.autoSave": "afterDelay",
+	"editor.mouseWheelZoom": true,
+	"editor.stickyScroll.enabled": false,
+	"liveServer.settings.donotShowInfoMsg": true,
+	"tabnine.experimentalAutoImports": true,
+	"[scss]": {
+		"editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+	},
+	"[css]": {
+		"editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+	},
+	"editor.wordWrap": "on",
+	"editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+
+	"prettier.useTabs": true,
+	"editor.formatOnSave": true,
+	"prettier.singleQuote": true,
+	"prettier.jsxSingleQuote": true,
+	"html.format.wrapAttributes": "force-aligned",
+	"prettier.printWidth": 200,
+	"prettier.tabWidth": 4,
+	"editor.defaultFoldingRangeProvider": "esbenp.prettier-vscode",
+	"redhat.telemetry.enabled": true,
+	"[xml]": {
+		"editor.defaultFormatter": "redhat.vscode-xml"
+	},
+	//Spell checker
+	"cSpell.language": "en,ru",
+	"cSpell.userWords": [],
+	"cSpell.enabled": true,
+	"cSpell.enableFiletypes": ["blade", "jsx", "tsx", "ts", "js", "scss", "sass", "vue"],
+
+	"editor.unicodeHighlight.allowedCharacters": {
+		"а": true,
+		"с": true,
+		"Т": true,
+		"б": true,
+		"е": true
+	},
+	"editor.hideCursorInOverviewRuler": true,
+	"git.enableSmartCommit": true
+}
